@@ -24,6 +24,12 @@
     gap: 1rem;
     list-style: none;
 }
+.topSection ul  li:nth-child(1):hover{
+text-decoration: underline;
+}
+.topSection ul  li:nth-child(2):hover{
+text-decoration: underline;
+}
 
 .logo{
     display: flex;
