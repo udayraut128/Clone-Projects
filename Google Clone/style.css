@@ -23,6 +23,7 @@
     justify-content: end;
     gap: 1rem;
     list-style: none;
+    cursor: pointer;
 }
 .topSection ul  li:nth-child(1):hover{
 text-decoration: underline;
@@ -36,6 +37,9 @@ text-decoration: underline;
     align-items: center;
     justify-content: center;
     font-size: 2rem;
+    background: url("");
+    letter-spacing: 0.5rem;
+    font-weight: 900;
 
 }
 .logo h1:nth-child(1){
@@ -58,7 +62,7 @@ color: #EA4335;
 }
 
 .search{
-    width: 60%;
+    max-width: ;width: 50%;
     height: 2.5rem;
     box-shadow: 0 0 7px rgb(145, 139, 139);
     margin-top: 2rem;
@@ -84,13 +88,37 @@ color: #EA4335;
     margin-top: 1rem;
     display: flex;
     justify-content: start;
-    width: 60%;
+    width: 50%;
     height: 30vh;
+    padding: 1rem;
+}
+.shortcutUrl .logoOfList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 1rem 1.3rem;
+}
+
+.shortcutUrl  .logoOfList:hover{
+    background-color:#fafafa;
+    border-radius: 1rem;
+    
 }
 
 
-
-
+  .logoOfList span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50% ;
+    background-color: rgb(237, 205, 205);
+    margin-bottom: 0.5rem;
+    
+}
 
 
 
