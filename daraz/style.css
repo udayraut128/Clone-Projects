@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: boder-box;
+
+}
+
+body {
+    background-color: #f7efef;
+}
+
+.top-nav {
+
+    background-color: #f7efef;
+    height: 25px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: 50;
+    font-size: .85rem;
+
+
+}
+
+.top {
+
+    height: 25px;
+    width: 1188px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px;
+
+}
+
+.top p {
+
+
+    padding-left: 3.5rem;
+}
+
+.top p a {
+    text-decoration: none;
+    font-weight: 50;
+}
+
+.hovers {
+    color: black;
+
+}
+
+.hovers:hover {
+    color: #F57224;
+    text-decoration: underline;
+}
+
+.top-m-bar {
+
+    width: 100%;
+    height: 75px;
+    background-color: white;
+
+}
+
+.middle {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 75px;
+}
+
+.middle_nav {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.1rem;
+    padding-bottom: 0.3rem;
+    width: 1190px;
+    height: 75px;
+
+
+}
+
+.logo {
+
+    height: 49px;
+    width: 200px;
+
+}
+
+.logo img {
+    width: 135px;
+    height: 41px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    width: 750px;
+    height: 45px;
+
+}
+
+.search_d {
+    width: 688px;
+    height: 44px;
+    border: none;
+    background-color: #f5f5f5;
+
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    width: 3rem;
+    background-color: #F57224;
+    color: rgb(255, 255, 255);
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: .5rem;
+    height: 45px;
+    width: 45px;
+}
+
+.slider {
+    background-image: url(offer.gif);
+    background-size: cover;
+    width: 195px;
+    height: 45px;
+}
+
+.main-body {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.body1 {
+    width: 100vw;
+    height: 344px;
+    background-color: #f7efef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.main_photo {
+    height: 344px;
+    width: 988px;
+    margin: 0px 0px 0px 200px;
+
+}
+
+.main_photo img {
+
+    height: 344px;
+    width: 988px;
+}
+
+.voucher {
+    height: 300px;
+    width: 100vw;
+    background-color: gray;
+    margin-top: .1px;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.photo-voucher {
+    height: 176px;
+    width: 1188px;
+}
